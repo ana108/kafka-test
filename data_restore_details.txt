@@ -1,0 +1,4 @@
+/usr/bin/pg_dump --file "/home/ana/dataset_internet_measurements" --host "internetmeasurements-do-user-2914427-0.b.db.ondigitalocean.com" --port "25060" --username "doadmin" --no-password --verbose --role "doadmin" --format=c --blobs --encoding "BIG5" "defaultdb"
+
+Replace /home/ana/dataset_internet_measurements with the location of the dataset_internet_measurements
+Suggestion is to use pgAdmin tool to restore data. There is no password, but if it asks for a password, email anastasiya.andrushchak@carleton.ca to get details
